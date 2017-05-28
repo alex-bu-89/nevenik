@@ -65,3 +65,15 @@ atlassian*
 !/vendor/.htaccess
 /generated/*
 !/generated/.htaccess
+
+.DS_Store
+.sass-cache
+.publish
+public
+dist
+Desktop.ini
+node_modules
+**/generated/_icons.sass
+npm-debug.log
+
+wp-config.php
