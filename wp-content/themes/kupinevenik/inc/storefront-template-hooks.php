@@ -82,6 +82,7 @@ add_action( 'storefront_single_post_bottom',  'storefront_post_nav',            
 add_action( 'storefront_single_post_bottom',  'storefront_display_comments',     20 );
 add_action( 'storefront_post_content_before', 'storefront_post_thumbnail',       10 );
 
+
 /**
  * Pages
  *
@@ -98,3 +99,5 @@ add_action( 'storefront_page_after', 'storefront_display_comments',     10 );
 add_action( 'storefront_homepage',       'storefront_homepage_header',      10 );
 add_action( 'storefront_homepage',       'storefront_page_content',         20 );
 add_action( 'storefront_homepage',       'storefront_init_structured_data', 30 );
+
+add_action( 'woocommerce_shop_loop_item_title', 'woocommerce_template_loop_product_title', 10 );
