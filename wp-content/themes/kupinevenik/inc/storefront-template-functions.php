@@ -1,8 +1,8 @@
 <?php
 
 /**
- * remove  inline styles
- * @return void
+ * [remove_storefront_style description]
+ * @return [type] [description]
  */
 function remove_storefront_style() {
   set_theme_mod('storefront_styles', '');
@@ -138,6 +138,9 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 		?>
 		<div class="site-info">
 			<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
+			<?php if ( apply_filters( 'storefront_credit_link', true ) ) { ?>
+			<br /> <?php printf( esc_attr__( '%1$s designed by %2$s.', 'storefront' ), 'Storefront', '<a href="http://www.woocommerce.com" title="WooCommerce - The Best eCommerce Platform for WordPress" rel="author">WooCommerce</a>' ); ?>
+			<?php } ?>
 		</div><!-- .site-info -->
 		<?php
 	}
