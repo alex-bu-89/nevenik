@@ -101,21 +101,17 @@
 			</div>
 	</nav>
 
-	<?php
-	/**
-	 * Functions hooked in to storefront_before_content
-	 *
-	 * @hooked storefront_header_widget_region - 10
-	 */
-	do_action( 'storefront_before_content' ); ?>
+	<section id="header-widget-region">
+		<div class="container">
+			<?php do_action( 'storefront_before_content' ); //  @hooked storefront_header_widget_region - 10 ?>
+		</div>
+	</section>
 
-	<div id="content" class="site-content" tabindex="-1">
-		<div class="col-full">
+	<section id="breadcrumbs">
+		<div class="container">
+			<?php do_action( 'storefront_content_top' ); // @hooked woocommerce_breadcrumb - 10 ?>
+		</div>
+	</section>
 
-		<?php
-		/**
-		 * Functions hooked in to storefront_content_top
-		 *
-		 * @hooked woocommerce_breadcrumb - 10
-		 */
-		do_action( 'storefront_content_top' );
+	<section id="content" tabindex="-1">
+		<div class="container">
