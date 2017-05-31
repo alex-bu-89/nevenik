@@ -63,7 +63,7 @@
 					 * @hooked storefront_credit         - 20
 					 */
 					do_action( 'storefront_footer' ); ?>
-					
+
 				</div>
 		</div>
 	</footer><!-- #colophon -->
@@ -73,6 +73,8 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 
 </body>
 </html>

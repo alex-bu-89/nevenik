@@ -10,6 +10,7 @@
     margin-bottom: 15px
     float: left
     position: relative
+    min-height: 330px
 
     &:nth-child(4n)
       margin-right: 0px
@@ -28,21 +29,26 @@
     .bottom
       padding: 15px
 
-      .product-price
-        font-weight: bold
-        position: absolute
-        margin-top: -53px
-        right: 1px
-        font-size: 1.2rem
-        background: $primary-white
-        padding: 5px 10px
-        color: $primary-color
+    .product-price
+      font-weight: bold
+      text-align: center
+      font-size: 1.2rem
+      background: $primary-white
+      padding: 5px 10px
+      color: $primary-color
 
-      .product-title
-        padding-bottom: 5px
+    .product-title
+      padding-bottom: 5px
+      color: $primary-text-color
+      font-weight: 400
+      text-align: center
+      margin-bottom: 0px
 
-      .product-rating
-        color: $primary-color
+    .product-rating
+      color: $primary-color
+
+    .add_to_cart_button
+      display: none
 
   @media #{$small-and-down}
     .product

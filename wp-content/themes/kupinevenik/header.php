@@ -73,15 +73,16 @@
 			<div class="nav-wrapper container center-align">
 
 					<!-- DESCTOPE -->
-					<?php
-						wp_nav_menu(
-							array(
-								'theme_location'	=> 'primary',
-								'container_class'	=> 'primary-navigation',
-								)
-						);
-					?>
-
+					<div class="hide-on-med-and-down">
+						<?php
+							wp_nav_menu(
+								array(
+									'theme_location'	=> 'primary',
+									'container_class'	=> 'primary-navigation',
+									)
+							);
+						?>
+					</div>
 					<!-- MOBILE -->
 					<!-- <ul id="nav-mobile" class="side-nav">
 							<li><a href="#">О нас</a></li>
