@@ -15,7 +15,7 @@
 	<?php if( is_front_page() ) { ?>
 		<section class="section no-pt">
 				<div class="container">
-						<h2 class="abstract">Цветочная мастерская «НеВеник»: живые букеты, которые радуют!</h2>
+						<h2 class="abstract">Живые букеты, которые радуют!</h2>
 				</div>
 				<div class="container">
 					<div class="row center">
@@ -180,7 +180,7 @@
 										<li><a href="#!">Подарки</a></li>
 								</ul>
 						</div>
-						<div class="col s12 m3">
+						<div class="col s12 m3 center">
 								<h4>Контакты</h4>
 								<p>Телефон: 8 (921) 940-84-80 </p>
 								<p>Часы работы: Пн-Вт с 9-18</p>

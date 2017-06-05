@@ -44,11 +44,11 @@
 	<header id="masthead" role="banner" style="<?php storefront_header_styles(); ?>">
 			<div class="container">
 					<div class="row">
-							<div class="soc-icons col s6 m4">
-									<a href="#"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
-									<a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+							<div class="soc-icons col s12 m4">
+									<a href="#"><i class="fa fa-vk fa-2x" aria-hidden="true" target="_blank"></i></a>
+									<a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 							</div>
-							<div class="col s6 m4 center">
+							<div class="col s12 m4 center">
 									<!-- <a id="logo-container" href="#" class="brand-logo"><span class="primary-color">Не</span>Веник.ru</a> -->
 										<?php storefront_site_title_or_logo(); ?>
 							</div>
