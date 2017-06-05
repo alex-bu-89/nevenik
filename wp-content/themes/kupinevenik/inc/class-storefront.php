@@ -20,7 +20,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 		public function __construct() {
 			add_action( 'after_setup_theme',          array( $this, 'setup' ) );
 			add_action( 'widgets_init',               array( $this, 'widgets_init' ) );
-			add_action( 'wp_enqueue_scripts',         array( $this, 'scripts' ),       10 );
+			add_action( 'wp_enqueue_scripts',         array( $this, 'scripts' ),       30 );
 			add_action( 'wp_enqueue_scripts',         array( $this, 'child_scripts' ), 30 ); // After WooCommerce.
 			add_filter( 'body_class',                 array( $this, 'body_classes' ) );
 			add_filter( 'wp_page_menu_args',          array( $this, 'page_menu_args' ) );
@@ -200,9 +200,6 @@ if ( ! class_exists( 'Storefront' ) ) :
 			/**
 			 * Styles
 			 */
-			wp_enqueue_style( 'storefront-style', get_template_directory_uri() . '/style.css', '', $storefront_version );
-			wp_style_add_data( 'storefront-style', 'rtl', 'replace' );
-
 			wp_enqueue_style( 'storefront-icons', get_template_directory_uri() . '/assets/sass/base/icons.css', '', $storefront_version );
 
 			/**
@@ -217,6 +214,8 @@ if ( ! class_exists( 'Storefront' ) ) :
 			 */
 			wp_enqueue_script( 'storefront-navigation', get_template_directory_uri() . '/assets/js/navigation.min.js', array( 'jquery' ), '20120206', true );
 			wp_enqueue_script( 'storefront-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.min.js', array(), '20130115', true );
+
+			wp_enqueue_style( 'storefront-style', get_template_directory_uri() . '/style.css', '', $storefront_version );
 
 			if ( is_page_template( 'template-homepage.php' ) && has_post_thumbnail() ) {
 				wp_enqueue_script( 'storefront-rgbaster', get_template_directory_uri() . '/assets/js/vendor/rgbaster.min.js', array( 'jquery' ), '1.1.0', true );

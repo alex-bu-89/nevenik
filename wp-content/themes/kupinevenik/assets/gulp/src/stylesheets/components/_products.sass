@@ -56,3 +56,34 @@
 
       &:nth-child(2n)
         margin-right: 0px
+
+.onsale
+  position: absolute
+  top: 15px
+  left: -10px
+  background: $primary-color
+  color: $primary-white
+  border: $primary-color-dark-1
+  border-radius: 0px
+  padding: 6px 10px
+  z-index: 100
+
+  &::before
+    content: ''
+    position: absolute
+    height: 0
+    width: 0
+    bottom: 100%
+    left: 0
+    border-bottom: 7px solid $primary-color-dark-1
+    border-left: 10px solid transparent
+
+.woocommerce-Price-currencySymbol
+  padding-left: 5px
+
+ins
+  text-decoration: none
+
+del
+  font-size: 12px
+  color: $primary-text-color
