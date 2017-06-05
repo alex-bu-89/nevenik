@@ -13,30 +13,29 @@
 	</section><!-- #content -->
 
 	<?php if( is_front_page() ) { ?>
-		<section class="section">
+		<section class="section no-pt">
 				<div class="container">
 						<h2 class="abstract">Цветочная мастерская «НеВеник»: живые букеты, которые радуют!</h2>
 				</div>
 				<div class="container">
 					<div class="row center">
-							<p class="lead">Цветы созданы для того, чтобы их дарить!</p>
 							<div class="col s12 m3">
 									<div class="icon-block">
-											<i class="fa fa-check fa-4x" aria-hidden="true"></i>
+											<i class="fa fa-birthday-cake fa-4x" aria-hidden="true"></i>
 											<p>День рождения любимой или юбилей близкого человека? Надо купить цветы, они порадуют больше всего!</p>
 									</div>
 							</div>
 
 							<div class="col s12 m3">
 									<div class="icon-block">
-											<i class="fa fa-check fa-4x" aria-hidden="true"></i>
+											<i class="fa fa-glass fa-4x" aria-hidden="true"></i>
 											<p>Новый год, День влюбленных, 23 февраля, 8 марта или любой другой календарный праздник? Купить букет цветов – значит, решить проблему подарка.</p>
 									</div>
 							</div>
 
 							<div class="col s12 m3">
 									<div class="icon-block">
-											<i class="fa fa-check fa-4x" aria-hidden="true"></i>
+											<i class="fa fa-gift fa-4x" aria-hidden="true"></i>
 											<p>Семейный праздник, и надо порадовать родителей чем-то особенным? Закажите особенный подарок, который скажет о ваших эмоциях.</p>
 									</div>
 							</div>
@@ -51,7 +50,7 @@
 			</div>
 		</section>
 
-		<section class="section">
+		<section class="section gray-container">
 				<div class="container">
 						<h2 class="abstract">Знаете ли вы?</h2>
 				</div>
@@ -70,7 +69,7 @@
 				</div>
 		</section>
 
-		<section class="section">
+		<section class="section no-pt">
 				<div class="container">
 						<h2 class="abstract">Что предлагаем мы?</h2>
 				</div>
@@ -94,10 +93,47 @@
 
 		<section class="pink-container valign-wrapper">
 				<div class="container center">
+						<i class="fa fa-comments-o fa-4x" aria-hidden="true"></i>
 						<h3 class="header center">Игорь, 35: «Большое спасибо за прекрасный букет!»</h3>
 						<p class="lead center">
 							В день рождения жены был в командировке. Поздравить лично не мог, потому заказал букет в цветочной мастерской «НеВеник» с доставкой. Заказ оформили очень быстро, вручили точно в указанный срок. Моя женушка проснулась от того, что ей принесли эксклюзивный, составленный для нее букет роз! А я получил фотоотчет.
 						</p>
+				</div>
+		</section>
+
+		<section class="section">
+				<div class="container">
+						<h2 class="abstract">Как заказать букет цветов так, чтобы вам не прислали веник?</h2>
+				</div>
+				<div class="container">
+					<div class="row">
+							<p>Вы уже догадались: обратиться к нам! Все честно:</p>
+							<ul>
+								<li>Мы закупаем только свежие и качественные цветы, которые не стыдно дарить!</li>
+								<li>Составление букетов гарантируем исходя из пожеланий заказчика и специфики заказа. У нас не бывает полностью одинаковых композиций!</li>
+								<li>Заказ обходится нашим клиентам недорого: в среднем на 10-13% дешевле за счет бесплатной доставки*, чем у серьезных конкурентов (дешевые продавцы некондиции нем не конкуренты, мы равняется на самые высокие стандарты!).</li>
+								<li>Доставка по Санкт-Петербургу – бесплатно!</li>
+							</ul>
+							<p><i>* При заказе от 2 тысяч рублей.</i></p>
+					</div>
+				</div>
+		</section>
+
+		<section class="section no-pt">
+				<div class="container">
+						<h2 class="abstract">Мы экономим не на качестве, а на логистике</h2>
+				</div>
+				<div class="container">
+					<div class="row">
+						<p>
+							«НеВеник» гарантирует красоту букета и высокое качество обслуживания. Купить любовь нельзя, но цветы для любимых – необходимо!
+						</p>
+							<ul>
+								<li>Оптимальные маршруты доставки.</li>
+								<li>Прямое сотрудничество с поставщиками цветов.</li>
+								<li>Использование для составления букетов украшений от оптовых продавцов.</li>
+							</ul>
+					</div>
 				</div>
 		</section>
 
@@ -146,9 +182,8 @@
 						</div>
 						<div class="col s12 m3">
 								<h4>Контакты</h4>
-								<p>Телефон: (812) 555-1234 </p>
+								<p>Телефон: 8 (921) 940-84-80 </p>
 								<p>Часы работы: Пн-Вт с 9-18</p>
-								<p>Адрес: Невский Проспект 1, 12345 Санкт-Петербург, Россия</p>
 						</div>
 				</div>
 		</div>

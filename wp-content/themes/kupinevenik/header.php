@@ -56,7 +56,7 @@
 									<div class="right-align">
 											<p class="phone">
 													<!-- <i class="fa fa-phone fa-lg"></i>  -->
-													<span class="primary">(812)</span> 555-1234
+													<span class="primary">8 (921)</span> 940-84-80
 											</p>
 											<p class="opening-hours">
 													<!-- <i class="fa fa-clock-o fa-lg"></i>  -->
@@ -83,15 +83,16 @@
 							);
 						?>
 					</div>
-					<!-- MOBILE -->
-					<!-- <ul id="nav-mobile" class="side-nav">
-							<li><a href="#">О нас</a></li>
-							<li><a href="#">Оплата и доставка</a></li>
-							<li><a href="#">Услуги</a></li>
-							<li><a href="#">Акции</a></li>
-							<li><a href="#">Свадебные</a></li>
-							<li><a href="#">Контакты</a></li>
-					</ul> -->
+					<div id="nav-mobile" class="side-nav">
+						<?php
+							wp_nav_menu(
+								array(
+									'theme_location'	=> 'primary',
+									'container_class'	=> 'primary-navigation',
+									)
+							);
+						?>
+					</div>
 
 					<!-- COLLAPSE BUTTON -->
 					<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-bars fa-lg"></i></a>

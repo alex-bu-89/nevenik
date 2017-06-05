@@ -19,12 +19,13 @@ html
 
   font-family: 'Roboto', sans-serif
   font-weight: normal
+  font-display: swap
   color: $primary-text-color
 
 h1, h2, h3, h4, h5, h6
   font-family: 'Ledger', serif
   font-weight: bold
-  line-height: 1.1
+  line-height: 1.7
   text-transform: uppercase
   color: $primary-color
   text-align: center
@@ -124,6 +125,12 @@ small
 .section
   padding: $section-margin 0
 
+  &.no-pt
+    padding-top: 0px
+
+#content
+  padding-top: 30px
+
 .woocommerce-products-header,
 #content
   outline: none
@@ -134,6 +141,26 @@ small
 .woocommerce-ordering
   margin-right: 0px !important
 
-.storefront-sorting
-  margin-bottom: 1em !important
+.storefront-sorting,
+.products-header
   display: none
+
+.pink-container
+  background: $primary-color
+  color: $primary-white
+  padding: $section-margin 0
+
+  h1, h2, h3, h4
+    color: $primary-white
+
+.gray-container
+  background: $primary-gray
+
+.container
+  .row
+    ul
+      li
+        list-style-type: disc
+        margin-left: 50px
+        line-height: 1.8rem
+        font-weight: 300

@@ -208,9 +208,9 @@ if ( ! class_exists( 'Storefront' ) ) :
 			/**
 			 * Fonts
 			 */
-			 wp_enqueue_style( 'kupinevenik-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false );
 			 wp_enqueue_style( 'kupinevenik-roboto', 'https://fonts.googleapis.com/css?family=Roboto:100,400,700&amp;subset=cyrillic', false );
 			 wp_enqueue_style( 'kupinevenik-ledger', 'https://fonts.googleapis.com/css?family=Ledger&amp;subset=cyrillic', false );
+			 wp_enqueue_style( 'kupinevenik-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false );
 
 			/**
 			 * Scripts
