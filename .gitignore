@@ -77,4 +77,5 @@ node_modules
 npm-debug.log
 
 wp-config.php
+wp-config-prod.php
 deploy.sh

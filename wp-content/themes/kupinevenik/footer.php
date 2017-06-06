@@ -207,8 +207,8 @@
 
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<?php wp_footer(); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 <script src="<?php echo (get_template_directory_uri() . '/assets/js/main.js'); ?>"></script>
 

@@ -115,5 +115,15 @@
 		</div>
 	</section>
 
+	<?php if( is_front_page() ) { ?>
+		<section>
+			<div class="container">
+				<?php
+			    	echo do_shortcode("[metaslider id=69]");
+				?>
+			</div>
+		</section>
+	<?php } ?>
+
 	<section id="content" tabindex="-1">
 		<div class="container">
