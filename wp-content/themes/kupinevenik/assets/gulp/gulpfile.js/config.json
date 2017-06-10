@@ -31,7 +31,7 @@
       "extractSharedJs": false
     },
     "css": {
-      "src": "stylesheets",
+      "src": "../../stylesheets",
       "dest": "stylesheets",
       "autoprefixer": {
         "browsers": ["last 3 versions"]

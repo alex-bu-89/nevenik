@@ -171,19 +171,12 @@
 								</ul>
 						</div>
 						<div class="col s12 m3 center">
-								<h4>Каталог</h4>
-								<ul>
-										<li><a href="#!">Цветы</a></li>
-										<li><a href="#!">Розы</a></li>
-										<li><a href="#!">Корзины и композиции</a></li>
-										<li><a href="#!">Букеты</a></li>
-										<li><a href="#!">Подарки</a></li>
-								</ul>
+								<?php dynamic_sidebar( 'footer-3' ); ?>
 						</div>
-						<div class="col s12 m3 center">
-								<h4>Контакты</h4>
+						<div class="col s12 m3">
+								<h4 class="center">Контакты</h4>
 								<p>Телефон: 8 (921) 940-84-80 </p>
-								<p>Часы работы: Пн-Вт с 9-18</p>
+								<p>Часы работы:<br /> Пн-Пт 9-20, Сб-Вс 11-17</p>
 						</div>
 				</div>
 		</div>

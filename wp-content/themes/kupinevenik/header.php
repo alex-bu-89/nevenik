@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
 <?php wp_head(); ?>
 </head>
 
@@ -58,10 +58,7 @@
 													<!-- <i class="fa fa-phone fa-lg"></i>  -->
 													<span class="primary">8 (921)</span> 940-84-80
 											</p>
-											<p class="opening-hours">
-													<!-- <i class="fa fa-clock-o fa-lg"></i>  -->
-													Часы работы: Пн-Вт с 9-18
-											</p>
+											<p>Часы работы:<br /> Пн-Пт 9-20, Сб-Вс 11-17</p>
 									</div>
 							</div>
 					</div>
@@ -119,7 +116,7 @@
 		<section>
 			<div class="container">
 				<?php
-			    	echo do_shortcode("[metaslider id=69]");
+			    	// echo do_shortcode("[metaslider id=69]");
 				?>
 			</div>
 		</section>
