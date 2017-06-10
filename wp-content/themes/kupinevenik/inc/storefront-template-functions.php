@@ -321,7 +321,7 @@ if ( ! function_exists( 'storefront_homepage_header' ) ) {
 		?>
 		<header class="entry-header">
 			<?php
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="entry-title abstract">', '</h1>' );
 			?>
 		</header><!-- .entry-header -->
 		<?php
@@ -339,7 +339,7 @@ if ( ! function_exists( 'storefront_page_header' ) ) {
 		<header class="entry-header">
 			<?php
 			storefront_post_thumbnail( 'full' );
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="entry-title abstract">', '</h1>' );
 			?>
 		</header><!-- .entry-header -->
 		<?php
@@ -379,13 +379,13 @@ if ( ! function_exists( 'storefront_post_header' ) ) {
 		<?php
 		if ( is_single() ) {
 			storefront_posted_on();
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="entry-title abstract">', '</h1>' );
 		} else {
 			if ( 'post' == get_post_type() ) {
 				storefront_posted_on();
 			}
 
-			the_title( sprintf( '<h2 class="alpha entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+			the_title( sprintf( '<h2 class="alpha entry-title abstract"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 		}
 		?>
 		</header><!-- .entry-header -->
