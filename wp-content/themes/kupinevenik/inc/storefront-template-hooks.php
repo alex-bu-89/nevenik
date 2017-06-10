@@ -35,7 +35,7 @@ add_action( 'storefront_header', 'storefront_primary_navigation_wrapper_close', 
  * @see  storefront_footer_widgets()
  * @see  storefront_credit()
  */
-add_action( 'storefront_footer', 'storefront_footer_widgets', 10 );
+// add_action( 'storefront_footer', 'storefront_footer_widgets', 10 );
 add_action( 'storefront_footer', 'storefront_credit',         20 );
 
 /**

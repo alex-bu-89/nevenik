@@ -7457,7 +7457,7 @@ msgstr "К сожалению, добавление нового метода о
 
 #: templates/loop/sale-flash.php:28 templates/single-product/sale-flash.php:28
 msgid "Sale!"
-msgstr "Распродажа!"
+msgstr "Акция!"
 
 #. translators: %d: total results
 #: templates/loop/result-count.php:40

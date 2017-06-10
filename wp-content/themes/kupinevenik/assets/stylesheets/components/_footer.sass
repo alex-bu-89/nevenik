@@ -9,10 +9,14 @@ footer
       text-decoration: underline
 
   ul
-    li
+    li,
+    li.cat-item
       list-style-type: none !important
       margin-left: 0px !important
+      padding-left: 0px !important
 
+    li.cat-item::before
+      display: none
   p
     margin: 0
 
