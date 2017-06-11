@@ -45,7 +45,8 @@
 			<div class="container">
 					<div class="row">
 							<div class="soc-icons col s12 m4">
-									<a href="#"><i class="fa fa-vk fa-2x" aria-hidden="true" target="_blank"></i></a>
+									<a href="https://vk.com/kupinevenik"><i class="fa fa-vk fa-2x" aria-hidden="true" target="_blank"></i></a>
+									<a href="https://www.facebook.com/kupinevenik/"><i class="fa fa-facebook fa-2x" aria-hidden="true" target="_blank"></i></a>
 									<a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 							</div>
 							<div class="col s12 m4 center">
@@ -112,15 +113,9 @@
 		</div>
 	</section>
 
-	<?php if( is_front_page() ) { ?>
-		<section>
-			<div class="container">
-				<?php
-			    	// echo do_shortcode("[metaslider id=69]");
-				?>
-			</div>
-		</section>
-	<?php } ?>
+	<?php // @TODO if( is_front_page() ) { ?>
+
+	<?php //} ?>
 
 	<section id="content" tabindex="-1">
 		<div class="container">

@@ -79,6 +79,46 @@
     border-bottom: 7px solid $primary-color-dark-1
     border-left: 10px solid transparent
 
+#content
+
+  .woocommerce-pagination
+    float: none
+    height: auto
+    margin-bottom: $section-margin
+
+    &::after
+      clear: both
+
+  .storefront-sorting
+    margin-bottom: 0
+    text-align: center
+
+    ul::after
+      clear: both
+
+    ul li
+      list-style-type: none
+      margin-left: 0
+      float: none
+      display: inline-block
+
+      a, span
+        font-size: 1rem
+        color: $primary-text-color
+        display: block
+        padding: 0 15px
+
+        &:hover
+          background: $primary-color
+          color: $primary-white
+
+      span.current
+        background: $primary-color
+        color: $primary-white
+
+.woocommerce-result-count
+  display: none
+
 .woocommerce-Price-currencySymbol
   padding-left: 5px
 

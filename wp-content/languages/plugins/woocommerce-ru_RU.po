@@ -66,9 +66,9 @@ msgstr "%s (Копировать)"
 msgctxt "with first and last result"
 msgid "Showing the single result"
 msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
-msgstr[0] "Отображение единичного результата."
-msgstr[1] "Отображение %1$d&ndash;%2$d из %3$d результатов"
-msgstr[2] "Отображение %1$d&ndash;%2$d из %3$d результатов"
+msgstr[0] ""
+msgstr[1] "Отображение %2$d из %3$d"
+msgstr[2] "Отображение %2$d из %3$d"
 
 #: includes/class-wc-order-item-product.php:74
 msgid "Invalid product ID"
@@ -7464,8 +7464,8 @@ msgstr "Акция!"
 msgid "Showing the single result"
 msgid_plural "Showing all %d results"
 msgstr[0] "Отображается единственный результат"
-msgstr[1] "Отображаются все %d результата"
-msgstr[2] "Отображаются все %d результатов"
+msgstr[1] "Отображаются %d"
+msgstr[2] "Отображаются %d"
 
 #: templates/loop/no-products-found.php:24
 msgid "No products were found matching your selection."
