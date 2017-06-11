@@ -1,0 +1,21 @@
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea
+  border: 1px solid #f1f1f1
+  height: auto
+  margin: 0 0 10px 0
+  border-radius: 5px
+  padding: 10px 20px
+  width: 100%
+
+textarea
+  min-height: 150px
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea:focus:not([readonly])
+  border: 1px solid $primary-color
+  box-shadow: none
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]
+  border: none
+
+form
+  p
+    margin-bottom: 0px
