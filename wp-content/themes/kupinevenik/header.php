@@ -50,8 +50,8 @@
 			<div class="container">
 					<div class="row">
 							<div class="soc-icons col s12 m4">
-									<a href="https://vk.com/kupinevenik"><i class="fa fa-vk fa-2x" aria-hidden="true" target="_blank"></i></a>
-									<a href="https://www.facebook.com/kupinevenik/"><i class="fa fa-facebook fa-2x" aria-hidden="true" target="_blank"></i></a>
+									<a href="https://vk.com/kupinevenik" target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true" target="_blank"></i></a>
+									<a href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true" target="_blank"></i></a>
 									<a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 							</div>
 							<div class="col s12 m4 center">
