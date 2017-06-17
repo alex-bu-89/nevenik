@@ -140,7 +140,7 @@
 		<section class="parallax-container valign-wrapper">
 				<div class="container center">
 						<h2 class="header center h1">Остались вопросы?</h2>
-						<a class="btn "><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Напишите нам!</a>
+						<a href="<?php echo get_site_url(); ?>/index.php?p=90" class="btn "><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Напишите нам!</a>
 				</div>
 				<div class="parallax">
 						<img src="<?php bloginfo('template_url'); ?>/assets/images/3-fd86f318e1.jpg" alt="Unsplashed background img 3">
@@ -172,6 +172,7 @@
 						</div>
 						<div class="col s12 m3 center">
 								<?php dynamic_sidebar( 'footer-3' ); ?>
+
 						</div>
 						<div class="col s12 m3">
 								<h4 class="center">Контакты</h4>
