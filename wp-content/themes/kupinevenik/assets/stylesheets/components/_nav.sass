@@ -1,4 +1,7 @@
-nav
+.navigation-wrapper
+  height: 50px
+
+#navigation, nav
   background: $primary-white
   height: 50px
   line-height: 50px
@@ -6,6 +9,14 @@ nav
   color: $primary-text-color
   border-top: 1px solid #f3f3f3
   border-bottom: 1px solid #f3f3f3
+
+  &.fixed
+    position: fixed
+    top: 0
+    z-index: 998
+
+  .nav-wrapper
+    background: $primary-white
 
   .nav-wrapper
     margin-top: 0px

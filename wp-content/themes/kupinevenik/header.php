@@ -72,7 +72,8 @@
 	</header>
 
 	<!-- MENU -->
-	<nav role="navigation">
+	<div class="navigation-wrapper">
+		<nav id="navigation" role="navigation">
 			<div class="nav-wrapper container center-align">
 
 					<!-- DESCTOPE -->
@@ -105,6 +106,7 @@
 					</div> -->
 			</div>
 	</nav>
+</div>
 
 	<section id="header-widget-region">
 		<div class="container">
