@@ -151,23 +151,23 @@
 	<?php do_action( 'storefront_before_footer' ); ?>
 
 	<footer id="colophon" class="page-footer" role="contentinfo">
-		<div class="container">
+		<div class="footer-content container">
 				<div class="row">
 						<div class="col s12 m3 center">
 								<h4>О нас</h4>
 								<ul>
-										<li><a href="#!">О нас</a></li>
-										<li><a href="#!">Карьера</a></li>
-										<li><a href="#!">Карта сайта</a></li>
+										<li><a href="<?php echo get_site_url(); ?>/o-nas">О нас</a></li>
+										<!-- <li><a href="#!">Карьера</a></li>
+										<li><a href="#!">Карта сайта</a></li> -->
 								</ul>
 						</div>
 						<div class="col s12 m3 center">
 								<h4>Сервис</h4>
 								<ul>
-										<li><a href="#!">Обратная связь</a></li>
-										<li><a href="#!">Заказать звонок</a></li>
+										<li><a href="<?php echo get_site_url(); ?>/forma-obratnoj-svyazi">Обратная связь</a></li>
+										<!-- <li><a href="#!">Заказать звонок</a></li>
 										<li><a href="#!">Как оплатить</a></li>
-										<li><a href="#!">Доставка</a></li>
+										<li><a href="#!">Доставка</a></li> -->
 								</ul>
 						</div>
 						<div class="col s12 m3 center">

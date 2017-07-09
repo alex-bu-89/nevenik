@@ -24,3 +24,7 @@
     display: inline-block
     box-shadow: 0px 5px 0px 0px $primary-color-dark-1
     @include transform(translate(0px, 5px))
+
+@media #{$small-and-down}
+  .btn, input[type="button"], input[type="submit"]
+    width: 100%
