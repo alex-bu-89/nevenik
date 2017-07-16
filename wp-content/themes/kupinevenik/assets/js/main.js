@@ -36,5 +36,6 @@
     }));
 
     myMap.behaviors.disable('scrollZoom');
+    myMap.behaviors.disable('drag');
   }
 })();
