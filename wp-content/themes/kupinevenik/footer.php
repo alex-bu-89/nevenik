@@ -6,9 +6,7 @@
  *
  * @package storefront
  */
-
 ?>
-
 		</div><!-- .col-full -->
 	</section><!-- #content -->
 
