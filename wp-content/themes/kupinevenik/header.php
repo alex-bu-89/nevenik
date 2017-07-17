@@ -125,9 +125,7 @@
 
 	<?php if( is_front_page() ) { ?>
 		<section class="container main-slider">
-			<?php
-			    echo do_shortcode("[metaslider id=69]");
-			?>
+			<?php echo do_shortcode("[metaslider id=69]"); ?>
 		</section>
 	<?php } ?>
 
