@@ -1,0 +1,93 @@
+.single-product
+  #content
+    a
+      color: $primary-color
+
+  .woocommerce-product-gallery img,
+  .woocommerce-product-gallery__wrapper
+    width: 100%
+    height: 100%
+
+  .woocommerce-product-gallery__wrapper
+    margin: 0px
+
+  .woocommerce-tabs
+    padding-top: 1.5em
+    padding-bottom: 0em
+
+  .product
+    overflow: visible !important
+    .price
+      margin: 1em 0 !important
+
+  .woocommerce-product-gallery
+    margin-bottom: 0px !important
+
+  .cart
+    display: none
+
+  .product_title
+    margin-top: 0px
+    margin-bottom: 15px
+    text-align: left
+    line-height: 1.5
+    font-size: 1.5em
+
+  .onsale
+    position: absolute
+    top: 15px
+    left: -9px
+    background: $primary-color
+    color: $primary-white
+    border: $primary-color-dark-1
+    border-radius: 0px
+    padding: 6px 10px
+    z-index: 100
+
+  table
+    td, th
+      padding: 5px
+
+    p
+      margin: 0px
+
+  .related>h2:first-child, .upsells>h2:first-child
+    font-size: 1.3em
+    margin: 1.5em 0
+
+.storefront-full-width-content .woocommerce-tabs ul.tabs
+  width: 100%
+
+.woocommerce-tabs
+  ul.tabs
+    border-top: 1px solid #f3f3f3
+    border-bottom: 1px solid #f3f3f3
+    float: none
+    height: auto
+
+    li
+      padding-right: 30px
+      border: 0px
+      position: static
+
+      &::after
+        display: none
+
+      a
+        color: $primary-text-color !important
+
+.storefront-full-width-content .woocommerce-tabs .panel,
+.woocommerce-tabs .panel
+  width: 100%
+  margin-bottom: 0px
+
+  h2
+    font-size: 1.3em
+    text-align: left
+
+#tab-title-reviews,
+#tab-reviews
+  display: none !important
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:before
+  color: #fff

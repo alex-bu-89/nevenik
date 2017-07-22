@@ -12,15 +12,19 @@ require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/assets.php' )
 
 // Required to demonstrate WP AJAX Page Loader (as WordPress doesn't ship with even simple post navigation functions)
 require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/navigation.php' );
+require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/header.php' );
 
 // Only the bare minimum to get the theme up and running
-function voidx_setup() {
+function kupinevenik_setup() {
 
   // HTML5 support; mainly here to get rid of some nasty default styling that WordPress used to inject
   add_theme_support( 'html5', array( 'search-form', 'gallery' ) );
 
   // Automatic feed links
   add_theme_support( 'automatic-feed-links' );
+
+  // Declare support for title theme feature.
+  add_theme_support( 'title-tag' );
 
   // $content_width limits the size of the largest image size available via the media uploader
   // It should be set once and left alone apart from that; don't do anything fancy with it; it is part of WordPress core
@@ -30,9 +34,8 @@ function voidx_setup() {
   // Register header and footer menus
   register_nav_menu( 'header', __( 'Header menu', 'voidx' ) );
   register_nav_menu( 'footer', __( 'Footer menu', 'voidx' ) );
-
 }
-add_action( 'after_setup_theme', 'voidx_setup', 11 );
+add_action( 'after_setup_theme', 'kupinevenik_setup', 11 );
 
 // Sidebar declaration
 function voidx_widgets_init() {
@@ -47,3 +50,9 @@ function voidx_widgets_init() {
   ) );
 }
 add_action( 'widgets_init', 'voidx_widgets_init' );
+
+// woocommerce support
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
