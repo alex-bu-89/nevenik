@@ -14,6 +14,7 @@ require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/assets.php' )
 require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/navigation.php' );
 require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/header.php' );
 require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/woocommerce.php' );
+require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/breadcrumbs.php' );
 
 // Only the bare minimum to get the theme up and running
 function kupinevenik_setup() {

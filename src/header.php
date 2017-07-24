@@ -39,8 +39,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="soc-icons col s12 m4">
-						<a href="https://vk.com/kupinevenik" target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true" target="_blank"></i></a>
-						<a href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true" target="_blank"></i></a>
+						<a href="https://vk.com/kupinevenik" target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
 						<a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 					</div>
 					<div class="col s12 m4 center">
@@ -62,8 +62,20 @@
 
         <?php kupinevenik_navigation(); ?>
 
+        <section id="breadcrumbs">
+            <div class="container">
+                <?php woocommerce_breadcrumb(); ?>
+            </div>
+        </section>
+
         <?php if( is_front_page() ) { ?>
-            <section class="container main-slider">
+            <section class="main-slider-loading">
+                <div class="container">
+                    <i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i>
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </section>
+            <section class="container main-slider" style="display: none">
             	<?php echo do_shortcode("[metaslider id=69]"); ?>
             </section>
         <?php } ?>
