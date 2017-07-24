@@ -13,6 +13,7 @@ require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/assets.php' )
 // Required to demonstrate WP AJAX Page Loader (as WordPress doesn't ship with even simple post navigation functions)
 require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/navigation.php' );
 require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/header.php' );
+require_once( trailingslashit( get_stylesheet_directory() ) . 'inc/woocommerce.php' );
 
 // Only the bare minimum to get the theme up and running
 function kupinevenik_setup() {
