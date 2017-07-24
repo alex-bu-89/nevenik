@@ -1,26 +1,14 @@
 {
-  "name": "wordpress-gulp-starter-kit",
-  "version": "0.3.1",
-  "description": "A starter kit for developing WordPress themes with Gulp",
-  "homepage": "https://github.com/synapticism/wordpress-gulp-starter-kit",
+  "name": "nevenik",
+  "version": "1.0.0",
+  "description": "Another project",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/synapticism/wordpress-gulp-starter-kit.git"
+    "url": ""
   },
-  "keywords": [
-    "wordpress",
-    "wordpress-theme",
-    "wordpress-starter-theme",
-    "starter-kit",
-    "theme",
-    "gulp",
-    "bower",
-    "composer",
-    "sass",
-    "browsersync",
-    "livereload"
-  ],
-  "author": "Alexander Synaptic <alexander@synapticism.com>",
+  "keywords": [],
+  "author": "",
   "license": "GPL-3.0",
   "main": "gulpfile.js",
   "private": true,
