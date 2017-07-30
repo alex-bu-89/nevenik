@@ -11,6 +11,9 @@
       border: 10px solid rgba(255, 255, 255, 0.7)
       z-index: 7
 
+    a.nivo-imageLink
+      z-index: 8
+
   .nivo-caption
     background: rgb(248, 135, 156)
     font-family: Ledger, serif !important
@@ -37,3 +40,34 @@
 
     .btn
       margin-top: 10px
+
+  .nivo-main-image
+    height: 400px !important
+    width: auto !important
+
+  .nivo-slice
+    display: none
+
+  @media #{$medium-and-down}
+    .nivo-main-image
+      height: 300px !important
+
+    .nivo-caption
+      p.h2
+        font-size: 1.5em
+      p
+        font-size: 0.9em
+
+  @media #{$small-and-down}
+    .nivo-caption
+      right: 0px
+      left: 0px
+      top: auto
+      bottom: 0px
+      width: 100%
+      height: auto
+
+      p.h2, p
+        font-size: 1em
+        line-height: 1.5em
+        padding: 0px
