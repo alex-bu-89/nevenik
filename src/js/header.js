@@ -24,11 +24,11 @@
             }
         });
 
-        ymaps.ready(init);
-        var myMap,
-            myPlacemark;
+        // yandex map
+        function initMap() {
 
-        function init() {
+            var myMap;
+
             myMap = new ymaps.Map("my-map", {
                 center: [59.916922, 30.401482],
                 zoom: 13
@@ -46,5 +46,6 @@
             myMap.behaviors.disable('drag');
         }
 
+        ymaps.ready(initMap);
     });
 }(jQuery));
