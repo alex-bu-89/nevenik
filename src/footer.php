@@ -3,7 +3,7 @@
         <?php if( is_front_page() ) { ?>
     		<section class="section no-pt">
     				<div class="container">
-    						<h2 class="abstract">Живые букеты, которые радуют!</h2>
+    						<h2 class="front abstract">Живые букеты, которые радуют!</h2>
     				</div>
     				<div class="container">
     					<div class="row center">
@@ -40,7 +40,7 @@
 
     		<section class="section gray-container">
     				<div class="container">
-    						<h2 class="abstract">Знаете ли вы?</h2>
+    						<h2 class="front abstract">Знаете ли вы?</h2>
     				</div>
     				<div class="container">
     					<div class="row">
@@ -59,7 +59,7 @@
 
     		<section class="section no-pt">
     				<div class="container">
-    						<h2 class="abstract">Что предлагаем мы?</h2>
+    						<h2 class="front abstract">Что предлагаем мы?</h2>
     				</div>
     				<div class="container">
     					<div class="row">
@@ -91,7 +91,7 @@
 
     		<section class="section">
     				<div class="container">
-    						<h2 class="abstract">Как заказать букет цветов так, чтобы вам не прислали веник?</h2>
+    						<h2 class="front abstract">Как заказать букет цветов так, чтобы вам не прислали веник?</h2>
     				</div>
     				<div class="container">
     					<div class="row">
@@ -109,7 +109,7 @@
 
     		<section class="section no-pt">
     				<div class="container">
-    						<h2 class="abstract">Мы экономим не на качестве, а на логистике</h2>
+    						<h2 class="front abstract">Мы экономим не на качестве, а на логистике</h2>
     				</div>
     				<div class="container">
     					<div class="row">
@@ -127,7 +127,7 @@
 
     		<section class="parallax-container valign-wrapper">
     				<div class="container center">
-    						<h2 class="header center h1">Остались вопросы?</h2>
+    						<h2 class="front header center h1">Остались вопросы?</h2>
     						<a href="<?php echo get_site_url(); ?>/index.php?p=90" class="btn "><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Напишите нам!</a>
     				</div>
     				<div class="parallax">
@@ -150,10 +150,10 @@
     						<div class="col s12 m3 center">
     								<h4>Сервис</h4>
     								<ul>
-    										<li><a href="<?php echo get_site_url(); ?>/forma-obratnoj-svyazi">Обратная связь</a></li>
-    										<!-- <li><a href="#!">Заказать звонок</a></li>
-    										<li><a href="#!">Как оплатить</a></li>
-    										<li><a href="#!">Доставка</a></li> -->
+    										<!-- <li><a href="#!">Заказать звонок</a></li> -->
+                        <li><a href="<?php echo get_site_url(); ?>/dostavka">Доставка</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>/kupi-tsvety-bez-deneg">Букет в кредит</a></li>
+                        <li><a href="<?php echo get_site_url(); ?>/forma-obratnoj-svyazi">Обратная связь</a></li>
     								</ul>
     						</div>
     						<div class="col s12 m3 center">

@@ -2,9 +2,10 @@
 
   <section id="content">
     <div class="container">
+      <div class="row">
         <?php if ( have_posts() ) {
           while ( have_posts() ) : the_post(); ?>
-            <h1 class="entry-title abstract"><?php the_title(); ?></h1>
+            <h1 class="entry-title"><?php the_title(); ?></h1>
             <div class="entry-content">
                 <?php the_content(); ?>
                 <?php wp_link_pages(); ?>
@@ -17,6 +18,7 @@
                 <?php get_search_form(); ?>
             </div>
         <?php } ?>
+      </div>
     </div>
   </section>
 <?php get_sidebar(); ?>

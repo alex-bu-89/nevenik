@@ -43,7 +43,11 @@ h1, h2, h3, h4, h5, h6
 h1, .h1
   font-size: 2rem
 h2, .h2
-  font-size: 1.6rem
+  // font-size: 1.6rem
+  font-size: 1.4rem
+  margin-bottom: 20px
+  text-align: left
+  text-transform: none
 h3, .h3
   font-size: 1.4rem
 h4, .h4
@@ -57,16 +61,20 @@ p
   font-weight: 400
   margin-top: 0px
 
+p + h2, p + .h2
+  margin-top: 15px
+
+h2.front
+  font-size: 1.6rem
+  margin-bottom: 20px
+  text-align: center
+  text-transform: uppercase
+
+h2.header
+  font-size: 2rem
+
 #content
-
   font-weight: 400
-
-  ul
-    li
-      list-style-type: disc
-      margin-left: 50px
-      line-height: 1.8rem
-      font-weight: 400
 
   header
     margin: 0px
@@ -191,14 +199,12 @@ small
 .gray-container
   background: $primary-gray
 
-.container
-  .row
-    ul
-      li
-        list-style-type: disc
-        margin-left: 50px
-        line-height: 1.8rem
-        font-weight: 400
+.container .row ul li
+  list-style-type: disc
+  margin-left: 50px
+  line-height: 1.8rem
+  font-weight: 400
+  margin-bottom: 6px
 
 .no-plr
   padding-left: 0px !important
