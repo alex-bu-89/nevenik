@@ -160,9 +160,7 @@
     								<?php // dynamic_sidebar( 'footer-3' ); ?>
                                     <h4 class="widget-title">Каталог</h4>
                                     <ul class="product-categories">
-                                        <li class="cat-item cat-item-15"><a href="<?php echo get_site_url(); ?>/product-category/bouquets/">Букеты</a></li>
-                                        <li class="cat-item cat-item-17"><a href="<?php echo get_site_url(); ?>/product-category/baskets-and-compositions/">Корзины и композиции</a></li>
-                                        <li class="cat-item cat-item-16"><a href="<?php echo get_site_url(); ?>/product-category/roses/">Розы</a></li>
+                                        <li class="cat-item cat-item-15"><a href="<?php echo get_site_url(); ?>/category/bouquets/">Букеты</a></li>                                    
                                     </ul>
     						</div>
     						<div class="col s12 m3 center">

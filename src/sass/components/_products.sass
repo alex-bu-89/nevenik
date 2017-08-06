@@ -7,6 +7,9 @@
     display: block
     clear: both
 
+  a
+    text-decoration: none !important
+
   .product
     width: calc(25% - 15px * 3 / 4)
     margin-right: 15px
@@ -87,7 +90,6 @@
   .woocommerce-pagination
     float: none
     height: auto
-    margin-bottom: $section-margin
 
     &::after
       clear: both
@@ -118,6 +120,12 @@
       span.current
         background: $primary-color
         color: $primary-white
+
+  .related-products
+    clear: both
+
+  .woocommerce-product-gallery
+    padding-bottom: 30px
 
 .woocommerce-result-count
   display: none

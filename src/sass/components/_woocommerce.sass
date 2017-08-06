@@ -1,0 +1,34 @@
+.woocommerce
+  .woocommerce-breadcrumb a,
+  #content a
+    color: $primary-color
+    text-decoration: underline
+
+    &:hover
+      text-decoration: none
+
+  // START PAGINATION
+  .woocommerce-pagination
+    border: none
+    line-height: 100% !important
+    margin-top: 30px
+
+    a.page-numbers
+      text-decoration: none !important
+
+  nav.woocommerce-pagination ul li a:focus,
+  nav.woocommerce-pagination ul li a:hover,
+  nav.woocommerce-pagination ul li span.current
+    background: $primary-color !important
+    color: #fff !important
+
+  nav.woocommerce-pagination ul
+    border: 1px solid $primary-color
+
+  nav.woocommerce-pagination ul li
+    border-right: 1px solid $primary-color
+    min-width: 30px
+
+    &:last-child
+      border-right: 0
+  // END PAGINATION
