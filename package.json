@@ -5,11 +5,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
   },
-  "keywords": [],
-  "author": "",
-  "license": "GPL-3.0",
   "main": "gulpfile.js",
   "private": true,
   "devDependencies": {
