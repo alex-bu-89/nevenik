@@ -4,7 +4,7 @@
   "description": "Another project",
   "homepage": "",
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "main": "gulpfile.js",
   "private": true,
