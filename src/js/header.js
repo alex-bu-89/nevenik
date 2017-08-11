@@ -24,6 +24,10 @@
             }
         });
 
+        jQuery('.callme_close').click(function(){
+          jQuery('.callme').hide();
+        });
+
         // yandex map
         function initMap() {
 

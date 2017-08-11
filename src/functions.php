@@ -28,6 +28,10 @@ function kupinevenik_setup() {
   // Declare support for title theme feature.
   add_theme_support( 'title-tag' );
 
+  add_theme_support( 'wc-product-gallery-zoom' );
+  add_theme_support( 'wc-product-gallery-lightbox' );
+  add_theme_support( 'wc-product-gallery-slider' );
+
   // $content_width limits the size of the largest image size available via the media uploader
   // It should be set once and left alone apart from that; don't do anything fancy with it; it is part of WordPress core
   global $content_width;

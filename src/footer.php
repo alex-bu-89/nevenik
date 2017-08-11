@@ -158,10 +158,10 @@
     						</div>
     						<div class="col s12 m3 center">
     								<?php // dynamic_sidebar( 'footer-3' ); ?>
-                                    <h4 class="widget-title">Каталог</h4>
-                                    <ul class="product-categories">
-                                        <li class="cat-item cat-item-15"><a href="<?php echo get_site_url(); ?>/category/bouquets/">Букеты</a></li>                                    
-                                    </ul>
+                    <h4 class="widget-title">Каталог</h4>
+                    <ul class="product-categories">
+                        <li class="cat-item cat-item-15"><a href="<?php echo get_site_url(); ?>/category/bouquets/">Букеты</a></li>
+                    </ul>
     						</div>
     						<div class="col s12 m3 center">
     								<h4 class="center">Контакты</h4>
@@ -172,10 +172,24 @@
     		</div>
     		<div class="footer-copyright">
     				<div class="container">
-                        <div class="site-info"> © НеВеник <?php echo date("Y"); ?> </div>
+                <div class="site-info"> © НеВеник <?php echo date("Y"); ?> </div>
     				</div>
     		</div>
     	</footer><!-- #colophon -->
+
+      <!-- Call back -->
+      <section class="callme">
+        <a href="<?php echo get_site_url(); ?>/forma-obratnoj-svyazi" target="_blank" title="Заказать звонок сейчас"></a>
+        <div class="textInfo">
+          Заказать<br>звонок
+        </div>
+        <div class="iconBlock">
+          <div class="iconPhone shake shake-constant">
+            <i class="fa fa-phone"></i>
+          </div>
+        </div>
+        <div class="callme_close">&times;</div>
+      </section>
 
     	<?php do_action( 'storefront_after_footer' ); ?>
 
