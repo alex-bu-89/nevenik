@@ -165,7 +165,10 @@
     						</div>
     						<div class="col s12 m3 center">
     								<h4 class="center">Контакты</h4>
-    								<p>Телефон: 8 (921) 940-84-80 </p>
+    								<p>
+                      8 (921) 940-84-80<br />
+                      8 (812) 412-88-37
+                    </p>
     								<p>Часы работы:<br /> Пн-Пт 9-20, Сб-Вс 11-17</p>
     						</div>
     				</div>
@@ -173,6 +176,9 @@
     		<div class="footer-copyright">
     				<div class="container">
                 <div class="site-info"> © НеВеник <?php echo date("Y"); ?> </div>
+                <div>
+                  Вся представленная на сайте информация не является публичной офертой
+                </div>
     				</div>
     		</div>
     	</footer><!-- #colophon -->
