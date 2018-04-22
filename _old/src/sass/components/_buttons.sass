@@ -1,0 +1,45 @@
+.btn, input[type="button"], input[type="submit"]
+  border-radius: 5px
+  padding: 15px 25px 10px 25px
+  font-size: 22px
+  text-decoration: none
+  background: $primary-color
+  box-shadow: none
+  margin: 0px
+  color: #fff
+  position: relative
+  display: inline-block
+  height: auto
+  line-height: 1rem
+  font-size: 1rem
+  box-shadow: 0px 5px 0px 0px $primary-color-dark
+  @include transform(translate(0px, 5px))
+
+  &:visited
+    background-color: $primary-color
+    display: inline-block
+    box-shadow: 0px 5px 0px 0px $primary-color-dark
+    @include transform(translate(0px, 5px))
+
+  &:hover
+    background: $primary-color-dark
+    @include transform(translate(0px, 5px))
+    box-shadow: 0px 5px 0px 0px $primary-color-dark-1
+
+  &:active
+    display: inline-block
+    box-shadow: 0px 5px 0px 0px $primary-color-dark-1
+    @include transform(translate(0px, 5px))
+
+  &:disabled
+    background: $primary-color-light
+    box-shadow: 0px 5px 0px 0px $primary-color-light-1
+
+#content
+  .btn, input[type="button"], input[type="submit"]
+    margin-top: 40px
+    margin-bottom: 40px
+
+@media #{$small-and-down}
+  .btn, input[type="button"], input[type="submit"]
+    width: 100%

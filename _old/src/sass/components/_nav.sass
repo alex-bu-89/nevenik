@@ -1,0 +1,85 @@
+.navigation-wrapper
+  height: 50px
+
+#navigation, nav
+  background: $primary-white
+  height: 50px
+  line-height: 48px
+  box-shadow: none
+  color: $primary-text-color
+  border-top: 1px solid #f3f3f3
+  border-bottom: 1px solid #f3f3f3
+
+  &.fixed
+    position: fixed
+    top: 0
+    z-index: 998
+
+  .nav-wrapper
+    background: $primary-white
+
+  .nav-wrapper
+    margin-top: 0px
+
+  ul.menu
+
+    &::after
+      content: ''
+      display: block
+      clear: left
+
+    li
+      a
+        color: $primary-text-color
+        text-transform: uppercase
+        font-size: 0.9rem
+        transition: none
+        text-decoration: none
+
+        &:hover
+          background: $primary-color
+          color: $primary-white
+
+        &:active
+          background: $primary-color-dark
+          color: $primary-white
+
+    li.current-menu-item
+      a
+        background: $primary-color
+        color: $primary-white
+
+      > a:hover
+        color: $primary-white
+
+  .button-collapse
+    color: $primary-text-color
+    margin-top: 18px
+
+  .nav-wrapper i,
+  a.button-collapse,
+  a.button-collapse i
+    height: 1rem !important
+    line-height: 1rem !important
+
+  .cart a
+    color: $primary-text-color
+    font-size: 0.9rem
+
+    &:hover
+      color: $primary-color
+
+    &:active
+      color: $primary-color-dark
+
+    i
+      padding-right: 7px
+
+.admin-bar #navigation
+  &.fixed
+    top: 32px
+
+@media #{$small-and-down}
+  .admin-bar #navigation
+    &.fixed
+      top: 0px

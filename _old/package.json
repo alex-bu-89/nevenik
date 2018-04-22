@@ -1,0 +1,41 @@
+{
+    "name": "nevenik",
+    "version": "1.0.0",
+    "description": "Another project",
+    "homepage": "",
+    "repository": {
+        "type": "git"
+    },
+    "main": "gulpfile.js",
+    "private": true,
+    "devDependencies": {
+        "browser-sync": "^2.18.13",
+        "del": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-changed": "^3.1.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-imagemin": "^4.0.0",
+        "gulp-jshint": "^2.0.4",
+        "gulp-livereload": "^3.8.1",
+        "gulp-load-plugins": "^1.5.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-ruby-sass": "^2.1.1",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.1",
+        "gulp-uglify": "^3.0.0",
+        "gulp-util": "^3.0.8",
+        "html5-history-api": "^4.2.8",
+        "merge-stream": "^1.0.1",
+        "normalize.css": "^7.0.0",
+        "require-dir": "^0.3.2",
+        "scut": "^1.4.0",
+        "spin.js": "^3.1.0",
+        "svg4everybody": "^2.1.9",
+        "timeago": "^1.6.1",
+        "wp-ajax-page-loader": "^0.3.1"
+    },
+    "scripts": {
+        "postinstall": "mv node_modules/normalize.css/normalize.css node_modules/normalize.css/_normalize.scss"
+    }
+}
