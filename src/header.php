@@ -11,6 +11,7 @@
     <link rel='stylesheet' id='kupinevenik-roboto-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C400%2C700&#038;subset=cyrillic&#038;ver=4.8' type='text/css' media='all' />
     <link rel='stylesheet' id='kupinevenik-ledger-css'  href='https://fonts.googleapis.com/css?family=Ledger&#038;subset=cyrillic&#038;ver=4.8' type='text/css' media='all' />
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.8' type='text/css' media='all' />
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> -->
     <?php wp_head(); ?>
 
     <!-- Yandex API -->
@@ -55,29 +56,30 @@
         </div> -->
 
         <header id="masthead" role="banner">
-			<div class="container">
-				<div class="row">
-					<div class="soc-icons col s12 m4">
-						<a href="https://vk.com/kupinevenik" target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
-						<a href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-						<a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-					</div>
-					<div class="col s12 m4 center">
-						<!-- <a id="logo-container" href="#" class="brand-logo"><span class="primary-color">Не</span>Веник.ru</a> -->
-						<?php kupinevenik_site_title_or_logo(); ?>
-					</div>
-					<div class="col s12 m4 сontact-details">
-						<div class="right-align">
-							<p class="phone">
-								<!-- <i class="fa fa-phone fa-lg"></i>  -->
-								<!-- <span class="primary">8 (921)</span> 940-84-80<br /> -->
-                <span class="primary">8 (812)</span> 412-88-37
-							</p>
-							<p>Часы работы:<br /> Пн-Пт 10-21</p>
-						</div>
-					</div>
-				</div>
-			</div>
+    			<div class="container">
+    				<div class="row">
+    					<div class="col s12 m6">
+                <!-- <a id="logo-container" href="#" class="brand-logo"><span class="primary-color">Не</span>Веник.ru</a> -->
+                <?php kupinevenik_site_title_or_logo(); ?>
+    					</div>
+    					<!-- <div class="soc-icons col s12 m4 center">
+                <a href="https://vk.com/kupinevenik" target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+    						<a href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+    						<a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+    					</div> -->
+    					<div class="col s12 m6 сontact-details">
+    						<div class="right-align">
+    							<p class="phone">
+    								<!-- <i class="fa fa-phone fa-lg"></i>  -->
+    								<!-- <span class="primary">8 (921)</span> 940-84-80<br /> -->
+                    <span class="primary">8 (812)</span> 412-88-37
+    							</p>
+    							<p>Санкт-Петербург, пр.Обуховской Обороны, д.19</p>
+    							<p>Часы работы: Пн-Пт 10-21</p>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
         </header>
 
         <?php kupinevenik_navigation(); ?>

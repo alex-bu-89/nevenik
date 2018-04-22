@@ -137,20 +137,37 @@
     	<?php } ?>
 
     	<footer id="colophon" class="page-footer" role="contentinfo">
-    		<div class="footer-content container">
+        <div class="row">
+            <div class="col s12 m12 center">
+              <img class="logo-footer" src="<?php bloginfo('template_url'); ?>/assets/images/logo-footer.png" alt="Logo kupinevenik footer">
+            </div>
+            <div class="col s12 m12 center">
+              <ul class="menu-bottom">
+                  <li><a href="<?php echo get_site_url(); ?>/dostavka">Доставка</a></li>
+                  <li><a href="<?php echo get_site_url(); ?>/kupi-tsvety-bez-deneg">Букет в кредит</a></li>
+                  <li><a href="<?php echo get_site_url(); ?>/forma-obratnoj-svyazi">Обратная связь</a></li>
+              </ul>
+            </div>
+            <div class="soc-icons col s12 m12 center">
+              <a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="tg://resolve?domain=NeVenik" target="_blank"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
+              <a href="whatsapp://send?phone=79219408480" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+              <a href="viber://contact?number=79219408480" target="_blank"><i class="fa fa-viber" aria-hidden="true"></i></a>
+              <a href="https://vk.com/kupinevenik" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    		<!-- <div class="footer-content container">
     				<div class="row">
     						<div class="col s12 m3 center">
     								<h4>О нас</h4>
     								<ul>
     										<li><a href="<?php echo get_site_url(); ?>/o-nas">О нас</a></li>
-    										<!-- <li><a href="#!">Карьера</a></li>
-    										<li><a href="#!">Карта сайта</a></li> -->
     								</ul>
     						</div>
     						<div class="col s12 m3 center">
     								<h4>Сервис</h4>
     								<ul>
-    										<!-- <li><a href="#!">Заказать звонок</a></li> -->
                         <li><a href="<?php echo get_site_url(); ?>/dostavka">Доставка</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/kupi-tsvety-bez-deneg">Букет в кредит</a></li>
                         <li><a href="<?php echo get_site_url(); ?>/forma-obratnoj-svyazi">Обратная связь</a></li>
@@ -180,7 +197,7 @@
                   Вся представленная на сайте информация не является публичной офертой
                 </div>
     				</div>
-    		</div>
+    		</div> -->
     	</footer><!-- #colophon -->
 
     	<?php do_action( 'storefront_after_footer' ); ?>
