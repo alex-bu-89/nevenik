@@ -10,8 +10,8 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />
     <link rel='stylesheet' id='kupinevenik-roboto-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C400%2C700&#038;subset=cyrillic&#038;ver=4.8' type='text/css' media='all' />
     <link rel='stylesheet' id='kupinevenik-ledger-css'  href='https://fonts.googleapis.com/css?family=Ledger&#038;subset=cyrillic&#038;ver=4.8' type='text/css' media='all' />
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.8' type='text/css' media='all' />
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> -->
+    <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.8' type='text/css' media='all' /> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <?php wp_head(); ?>
 
     <!-- Yandex API -->

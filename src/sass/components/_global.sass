@@ -244,3 +244,36 @@ small
   height: auto
   min-height: 400px
   overflow: hidden
+
+.social-icons
+  a
+    border-radius: 50%
+    padding: 10px
+    background: #ccc
+    position: relative
+    width: 35px
+    height: 35px
+    display: inline-block
+
+    i
+      position: absolute
+      left: 11px
+      color: #fff
+
+    &:hover
+      opacity: 0.7
+
+    &.instagram
+      background: radial-gradient(circle at 33% 100%,#fed373 4%,#f15245 30%,#d92e7f 62%,#9b36b7 85%,#515ecf)
+    &.telegram
+      background: #37aee2
+    &.whatsapp
+      background: #00eb67
+    &.viber
+      background: #7f4da0
+    &.vk
+      background: #4c6c91
+      i
+        left: 9px
+    &.facebook
+      background: #3b5998

@@ -16,7 +16,7 @@
 
     							<div class="col s12 m3">
     									<div class="icon-block">
-    											<i class="fa fa-glass fa-4x" aria-hidden="true"></i>
+    											<i class="fas fa-glass-martini fa-4x" aria-hidden="true"></i>
     											<p>Новый год, День влюбленных, 23 февраля, 8 марта или любой другой календарный праздник? Купить букет цветов – значит, решить проблему подарка.</p>
     									</div>
     							</div>
@@ -81,7 +81,7 @@
 
     		<section class="pink-container valign-wrapper">
     				<div class="container center">
-    						<i class="fa fa-comments-o fa-4x" aria-hidden="true"></i>
+    						<i class="fas fa-comments fa-4x" aria-hidden="true"></i>
     						<h3 class="header center">Игорь, 35: «Большое спасибо за прекрасный букет!»</h3>
     						<p class="lead center">
     							В день рождения жены был в командировке. Поздравить лично не мог, потому заказал букет в цветочной мастерской «НеВеник» с доставкой. Заказ оформили очень быстро, вручили точно в указанный срок. Моя женушка проснулась от того, что ей принесли эксклюзивный, составленный для нее букет роз! А я получил фотоотчет.
@@ -128,7 +128,7 @@
     		<section class="parallax-container valign-wrapper">
     				<div class="container center">
     						<h2 class="front header center h1">Остались вопросы?</h2>
-    						<a href="<?php echo get_site_url(); ?>/index.php?p=90" class="btn "><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> Напишите нам!</a>
+    						<a href="<?php echo get_site_url(); ?>/index.php?p=90" class="btn "><i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i> Напишите нам!</a>
     				</div>
     				<div class="parallax">
     						<img src="<?php bloginfo('template_url'); ?>/assets/images/3-fd86f318e1.jpg" alt="Unsplashed background img 3">
@@ -148,13 +148,16 @@
                   <li><a href="<?php echo get_site_url(); ?>/forma-obratnoj-svyazi">Обратная связь</a></li>
               </ul>
             </div>
-            <div class="soc-icons col s12 m12 center">
-              <a href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              <a href="tg://resolve?domain=NeVenik" target="_blank"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
-              <a href="whatsapp://send?phone=79219408480" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-              <a href="viber://contact?number=79219408480" target="_blank"><i class="fa fa-viber" aria-hidden="true"></i></a>
-              <a href="https://vk.com/kupinevenik" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
-              <a href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <div class="social-icons col s12 m12 center">
+              <a class="instagram" href="https://www.instagram.com/kupinevenik/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a class="telegram" href="tg://resolve?domain=NeVenik" target="_blank"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
+              <a class="whatsapp" href="whatsapp://send?phone=79219408480" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+              <a class="viber" href="viber://contact?number=79219408480" target="_blank"><i class="fab fa-viber" aria-hidden="true"></i></a>
+              <a class="vk" href="https://vk.com/kupinevenik" target="_blank"><i class="fab fa-vk" aria-hidden="true"></i></a>
+              <a class="facebook" href="https://www.facebook.com/kupinevenik/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <div class="policy col s12 m12 center">
+              <a href="<?php echo get_site_url(); ?>/politika-konfidentsialnosti/">Политика конфиденциальности данного сайта.</a>
             </div>
         </div>
     		<!-- <div class="footer-content container">
